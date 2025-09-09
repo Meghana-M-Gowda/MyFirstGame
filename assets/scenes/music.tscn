@@ -1,0 +1,8 @@
+[gd_scene load_steps=2 format=3 uid="uid://ck8hif2qdgg0x"]
+
+[ext_resource type="AudioStream" uid="uid://clvlsiiu8a3s3" path="res://assets/assets/BGMusic/Carefree(chosic.com).mp3" id="1_xuygp"]
+
+[node name="Music" type="AudioStreamPlayer2D"]
+stream = ExtResource("1_xuygp")
+autoplay = true
+bus = &"Music"
